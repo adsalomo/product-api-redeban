@@ -5,7 +5,8 @@ Ejecutar la clase com.redeban.ValidatePrime.java
 # Product API
 ## Tecnologías utilizadas
  * 1.	Open Jdk 17 o superior
- * 2.	Maven 4 o superior
+ * 2.   Spring Boot 3.3.5
+ * 3.	Maven 4 o superior
 
 ## Compilación
 
