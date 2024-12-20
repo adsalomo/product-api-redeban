@@ -10,7 +10,7 @@ Ejecutar la clase com.redeban.ValidatePrime.java
 
 ## Compilación
 
-Ingrese al directorio car_center y ejecute el siguiente comando con maven
+Ingrese al directorio product-api-redeban y ejecute el siguiente comando con maven
 
 * mvn clean compile install
 
