@@ -1,4 +1,4 @@
-package com.redeban.product.controller;
+package com.redeban.product.service;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
@@ -16,7 +16,6 @@ import com.redeban.product.data.CategoryRepository;
 import com.redeban.product.data.ProductRepository;
 import com.redeban.product.domain.Category;
 import com.redeban.product.domain.Product;
-import com.redeban.product.service.ProductService;
 
 @ExtendWith(MockitoExtension.class)
 public class ProductServiceTest {
