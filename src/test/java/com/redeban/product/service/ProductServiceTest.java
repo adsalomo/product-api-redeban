@@ -10,7 +10,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.util.Assert;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import com.redeban.product.data.CategoryRepository;
 import com.redeban.product.data.ProductRepository;
@@ -28,7 +28,7 @@ public class ProductServiceTest {
 	private CategoryRepository categoryRepository;
 
 	@Test
-	public void createProduct() throws Exception {		
+	public void createProduct() {		
 		Product product = getProduct();
 		product.setId(1);
 		
@@ -41,7 +41,7 @@ public class ProductServiceTest {
 		
 		newProduct = productService.createProduct(newProduct);
 		
-		Assert.isTrue(newProduct.getId() == 1, "");
+		assertTrue(newProduct.getId() == 1);
 	}
 	
 	private Product getProduct() {
